@@ -18,6 +18,7 @@ import {
   whichPm,
 } from './npm';
 import { copy, getAvailableTemplates } from './template';
+export { copy } from "./template";
 
 export interface Option {
   [key: string]: OptionData | { default: boolean };
